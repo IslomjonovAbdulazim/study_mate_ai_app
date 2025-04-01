@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:iut_mobile_app/routes/app_routes.dart';
-import 'package:iut_mobile_app/setup/bindings/initial_binding.dart';
-import 'package:iut_mobile_app/utils/services/token_service.dart';
+import 'routes/app_routes.dart';
+import 'setup/bindings/initial_binding.dart';
+import 'utils/services/token_service.dart';
 
 import 'utils/services/theme_service.dart';
 import 'utils/themes/app_theme.dart';

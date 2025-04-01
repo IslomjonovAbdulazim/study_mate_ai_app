@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iut_mobile_app/utils/extenstions/theme_data.dart';
+import 'theme_data.dart';
 
 extension ColorExtension on BuildContext {
   /// Background used for Scaffold and AppBar.

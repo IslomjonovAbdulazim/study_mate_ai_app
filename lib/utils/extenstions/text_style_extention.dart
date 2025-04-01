@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iut_mobile_app/utils/extenstions/color_extension.dart';
+import 'color_extension.dart';
 
 import '../constants/font_constants.dart';
 

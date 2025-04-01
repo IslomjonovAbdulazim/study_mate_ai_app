@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:iut_mobile_app/utils/extenstions/color_extension.dart';
+import '../utils/extenstions/color_extension.dart';
 
 class CachedNetworkWidget extends StatelessWidget {
   final String imageUrl;
