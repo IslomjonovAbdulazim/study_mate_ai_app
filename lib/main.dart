@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+
 import 'routes/app_routes.dart';
 import 'setup/bindings/initial_binding.dart';
-import 'utils/services/token_service.dart';
-
 import 'utils/services/theme_service.dart';
+import 'utils/services/token_service.dart';
 import 'utils/themes/app_theme.dart';
 
 final faker = Faker();
@@ -22,8 +22,10 @@ void main() async {
   await GetStorage.init();
   await Get.putAsync<TokenService>(() async => await TokenService().init());
   Get.put(ThemeController());
-  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-      overlays: SystemUiOverlay.values);
+  SystemChrome.setEnabledSystemUIMode(
+    SystemUiMode.manual,
+    overlays: SystemUiOverlay.values,
+  );
   runApp(
     DevicePreview(
       enabled: kIsWeb,
