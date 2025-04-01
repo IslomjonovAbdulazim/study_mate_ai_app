@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-part '_binding.dart';
-part '_controller.dart';
-part '_page.dart';
-part '_widgets.dart';
+part 'edit_profile_binding.dart';
+part 'edit_profile_controller.dart';
+part 'edit_profile_page.dart';
+part 'edit_profile_widgets.dart';

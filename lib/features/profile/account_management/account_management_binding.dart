@@ -1,8 +1,8 @@
 part of 'imports.dart';
 
-class _Binding extends Bindings {
+class AccountManagementBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => _Controller());
+    Get.lazyPut(() => AccountManagementController());
   }
 }

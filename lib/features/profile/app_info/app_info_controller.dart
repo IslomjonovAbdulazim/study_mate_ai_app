@@ -1,3 +1,3 @@
 part of 'imports.dart';
 
-class _Controller extends GetxController {}
+class AppInfoController extends GetxController {}

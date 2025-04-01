@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-part '_binding.dart';
-part '_controller.dart';
-part '_page.dart';
-part '_widgets.dart';
+part 'subscription_binding.dart';
+part 'subscription_controller.dart';
+part 'subscription_page.dart';
+part 'subscription_widgets.dart';

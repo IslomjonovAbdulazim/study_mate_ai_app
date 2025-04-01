@@ -1,7 +1,7 @@
 part of 'imports.dart';
 
-class _Page extends GetView<_Controller> {
-  const _Page({super.key});
+class AppInfoPage extends GetView<AppInfoController> {
+  const AppInfoPage({super.key});
 
   @override
   Widget build(BuildContext context) {
