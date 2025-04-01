@@ -4,6 +4,7 @@ class AppPages {
   static final List<GetPage> pages = [
     /// #Home
 
+
     /// #Tools
 
     /// #Quiz

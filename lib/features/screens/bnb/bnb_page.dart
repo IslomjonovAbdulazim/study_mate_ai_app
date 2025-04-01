@@ -12,7 +12,7 @@ class BnbPage extends GetView<BnbController> {
           children: [
             Navigator(
               key: Get.nestedKey(1),
-              initialRoute: AppRoutes.leaderboard,
+              initialRoute: AppRoutes.home,
               onGenerateRoute: (RouteSettings settings) {
                 try {
                   final page = AppPages.pages.firstWhere((p) => p.name == settings.name);
@@ -29,7 +29,7 @@ class BnbPage extends GetView<BnbController> {
             ),
             Navigator(
               key: Get.nestedKey(2),
-              initialRoute: AppRoutes.teachers,
+              initialRoute: AppRoutes.tools,
               onGenerateRoute: (RouteSettings settings) {
                 try {
                   final page = AppPages.pages.firstWhere((p) => p.name == settings.name);
@@ -46,7 +46,7 @@ class BnbPage extends GetView<BnbController> {
             ),
             Navigator(
               key: Get.nestedKey(3),
-              initialRoute: AppRoutes.gpaCalculator,
+              initialRoute: AppRoutes.home,
               onGenerateRoute: (RouteSettings settings) {
                 try {
                   final page = AppPages.pages.firstWhere((p) => p.name == settings.name);
