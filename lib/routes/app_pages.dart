@@ -2,37 +2,11 @@ part of 'app_routes.dart';
 
 class AppPages {
   static final List<GetPage> pages = [
-    /// #Leaderboard
-    GetPage(
-      name: AppRoutes.leaderboard,
-      page: () => LeaderboardPage(),
-      bindings: [
-        LeaderboardBinding(),
-      ],
-    ),
-    GetPage(
-      name: AppRoutes.leaderboardUserDetail,
-      page: () => LeaderboardUserDetailPage(),
-      bindings: [
-        LeaderboardUserDetailBinding(),
-      ],
-    ),
+    /// #Home
 
-    /// #Additional
-    GetPage(
-      name: AppRoutes.teachers,
-      page: () => TeachersPage(),
-      bindings: [
-        TeachersBinding(),
-      ],
-    ),
-    GetPage(
-      name: AppRoutes.gpaCalculator,
-      page: () => GpaCalculatorPage(),
-      bindings: [
-        GpaCalculatorBinding(),
-      ],
-    ),
+    /// #Tools
+
+    /// #Quiz
 
     /// #SCREENS
     GetPage(

@@ -1,7 +1,9 @@
 import 'package:get/get.dart';
 
 import '../features/screens/auth/imports.dart';
+import '../features/screens/bnb/imports.dart';
 import '../features/screens/internal_error/imports.dart';
+import '../features/screens/offline/imports.dart';
 import '../features/screens/splash/imports.dart';
 import '../features/screens/upgrade/imports.dart';
 
